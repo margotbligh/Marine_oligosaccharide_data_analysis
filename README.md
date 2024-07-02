@@ -15,9 +15,10 @@ Additional data objects:
   - data.peaks.ref.gsub.rt.RData = R data object with aligned peaks (output of adjustRtime)
   - data.peaks.ref.gsub.rt.grp.RData = R data object with grouped peaks (output of groupChromPeaks)
   - data.peaks.ref.gsub.rt.grp.fill.RData = R data object with filled peaks (output of fillChromPeaks)
-- feature tables
+- tables
   - aligned_feature_table.csv = feature table in NeatMS input format BEFORE deisotoping
   - aligned_feature_table_deiso.csv = feature table in NeatMS input format AFTER deisotoping - used as input for NeatMS denoising
+  - neatms_export_with_extra_properties.csv = OUTPUT of NeatMS denoising
 
 
 

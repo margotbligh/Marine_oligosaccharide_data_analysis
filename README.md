@@ -9,5 +9,6 @@ Additional data objects:
 
 - my_own_model_10000-lowlr_016.h5 = model trained for the study
 - data.peaks.RData = R data object with picked peaks (output of findChromPeaks)
+- data.peaks.ref.RData = R data object with refined peaks (output of refineChromPeaks)
 
 

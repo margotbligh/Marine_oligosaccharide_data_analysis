@@ -16,9 +16,9 @@ Additional data objects:
   - data.peaks.ref.gsub.rt.grp.RData = R data object with grouped peaks (output of groupChromPeaks)
   - data.peaks.ref.gsub.rt.grp.fill.RData = R data object with filled peaks (output of fillChromPeaks)
 - tables
-  - aligned_feature_table.csv = feature table in NeatMS input format BEFORE deisotoping
-  - aligned_feature_table_deiso.csv = feature table in NeatMS input format AFTER deisotoping - used as input for NeatMS denoising
+  - aligned_feature_table_deiso.csv = feature table in NeatMS input format after deisotoping - **used as input for NeatMS denoising**
   - neatms_export_with_extra_properties.csv = OUTPUT of NeatMS denoising
+  - chrom_for_checking.csv = extracted ion chromatograms for manual checking of annotated peaks
 
 
 

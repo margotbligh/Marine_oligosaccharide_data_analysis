@@ -18,7 +18,7 @@ Additional data objects:
 - tables
   - aligned_feature_table_deiso.csv = feature table in NeatMS input format after deisotoping - **used as input for NeatMS denoising**
   - neatms_export_with_extra_properties.csv = OUTPUT of NeatMS denoising
-  - chrom_for_checking.csv = extracted ion chromatograms for manual checking of annotated peaks
+  - peaks_manually_checked.csv = list of retained peaks after manual review stage
 
 
 

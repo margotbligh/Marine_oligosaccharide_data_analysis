@@ -1,13 +1,13 @@
 # Marine_oligosaccharide_data_analysis
-Code used to analyse LC-HRMS data described in marine oligosaccharide paper
+Code used to analyse LC-HRMS data described in marine oligosaccharide paper can be found in the script 'LC-HRMS_data_analysis.R'
 
 The paper: insert link and citation
 
-LC-HRMS data (mzML) format is available on the MassIVE data base. 
+LC-HRMS data (mzML) format is available on the MassIVE data base: insert DOI. 
 
-Additional data objects:
+Data objects:
 
-- my_own_model_10000-lowlr_016.h5 = model trained for the study
+- my_own_model_10000-lowlr_016.h5 = NeatMS denoising model trained for the study
 - R data objects from pre-processing (sequential)
   - data.peaks.RData = R data object with picked peaks (output of findChromPeaks)
   - data.peaks.ref.RData = R data object with refined peaks (output of refineChromPeaks)
